@@ -1,0 +1,22 @@
+h1{  /* tag selector*/
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+
+    
+    #wrapper{  /* id selector*/
+      background-color: gray;
+      width: 80%;
+      margin: auto;
+      box-shadow: white;
+    }
+
+    div{
+      width: 90%;
+      margin: auto;
+    }
