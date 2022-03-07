@@ -1,0 +1,26 @@
+
+body {
+  background-image: url("starsproject6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ #wrapper{  /* id selector*/
+      width: 60%;
+      margin: auto;
+      margin-top: 30px;
+    }
+ul {
+  list-style-image: url("apple2.png");
+  color: yellow;
+  border-image: url("border2.png");
+}
+
+.specialborder{
+  margin: 37px 0px 37px 0px;
+  border-image-slice:48 0 63 0;
+  border-image-width:37px 0px 37px 0px;
+  border-image-outset:37px 0px 37px 0px;
+  border-image-repeat:round repeat;
+  border-image-source:url("border1.png");
+  border-style:solid;
+}
