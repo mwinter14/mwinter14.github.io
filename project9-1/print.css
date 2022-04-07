@@ -1,0 +1,21 @@
+#nav{
+  display:none;
+}
+#sidebar{
+  display:none;
+}
+img{
+  display:none;
+}
+
+body{
+  background-color:white;
+  font:black;
+  font-size:1.25em;
+}
+
+@media print {
+  a::after{
+    content: " (" attr(href) ") ";
+  }
+}
