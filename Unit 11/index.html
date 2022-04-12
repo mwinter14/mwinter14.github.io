@@ -1,0 +1,46 @@
+<a href="/index.html">Home</a>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+<form>
+  <label for="pnumber">Phone Number:</label><br>
+  <input type="text" id="pnumber" name="pnumber"><br>
+</form
+
+  <input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="mashed potatoes" name="fav_language" value="mashed potatoes">
+<label for="mashed potatoes">Mashed Potatoes</label><br>
+<input type="radio" id="cheese" name="fav_language" value="cheese">
+<label for="cheese">cheese</label>
+<input type="radio" id="ranch" name="fav_language" value="ranch">
+<label for="ranch">ranch</label><br>
+<input type="radio" id="peanuts" name="fav_language" value="peanuts">
+<label for="peanuts">peanuts</label>
+<input type="radio" id="Milk" name="fav_language" value="Milk">
+<label for="milk">Milk</label><br>
+
+
+<label for="myCheck">I have read and understand the Terms of Use:</label> 
+<input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+</script>
+
+<form action="/action_page.php">
+  <input type="submit" value="Submit">
+</form> 
