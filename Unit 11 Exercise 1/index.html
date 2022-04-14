@@ -1,3 +1,14 @@
+<style>
+  select{
+    width: 300px;
+  }
+  textarea{
+    width: 300px;
+    height: 300px;
+  }
+  
+</style>
+
 <a href="/index.html">Home</a>
 <h1><b>Movie Genre Survey</b></h1>
 
@@ -15,7 +26,7 @@
 <input type="checkbox" id="drama" name="drama" value="drama">
 <label for="drama"> drama</label><br>
 </fieldset>
-
+<br></br>
 <fieldset><h4>Select how often you watch movies:</h4>
 <input type="radio" id="weekly" name="fav_language" value="weekly">
 <label for="weekly">weekly</label><br>
@@ -24,19 +35,15 @@
 <input type="radio" id="yearly" name="fav_language" value="yearly">
 <label for="yearly">yearly</label>
 </fieldset>
-
+<br></br>
+<select size="3">
+  <option>Home</option>
+  <option>Work</option>
+  <option>School</option>
+  <option>Friends House</option>
+</select>
 <h4>Select the locations you watch movies in:</h4>
-<div style="height60px;width:3px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-<label for="Home">Home:</label>
-<input type="text" id="home" name="home"
-<label for="Work">Work:</label>
-<input type="text" id="work" name="work"
-<label for="Friends House">Friends House:</label>
-<input type="text" id="Friends House" name="Friends House"
-<label for="School">School:</label>
-<input type="text" id="School" name="School"
-</div>
-
-<fieldset><h4>What roles do movies play in your life?</h4></fieldset>
+<textarea></textarea>
+<br></br>
 <input type="submit" value="Submit">
 <input type="reset" value="Reset">
